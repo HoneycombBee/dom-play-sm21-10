@@ -1,1 +1,35 @@
-<h1>dom-play-sm21-10</h1>
+<html>
+
+    <body>
+        <h1>DOM Play</h1>
+        <script>
+            
+            let fruits = ["pineapple","banana","orange"];
+
+
+            let myAlert = function(text){
+                alert(text);
+            }
+
+           /*
+            for(let x=0;x<fruits.length;x++){
+                myAlert(fruits[x])
+
+            }
+            */
+            
+            for(let fruit of fruits){
+                myAlert(fruit);
+            }
+            
+            /*
+            function myAlert(text){
+            alert(text);
+            }
+            myAlert("Salutations!")
+            */
+
+        </script>
+    </body>
+
+</html>
